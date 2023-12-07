@@ -1,0 +1,73 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+body {
+      background-color: #A8DADC;
+}
+
+.Content {
+      position: absolute;
+      margin: 150px 0px 574px 127px;
+}
+.h2 {
+      color: #457B9D;
+      font-family: Tienne;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 12px;
+}
+.h1 {
+      color: #1d3557;
+      font-family: "Poppins-SemiBold",'Segoe UI';
+      font-size: 55px;
+      line-height: 81.58px;
+      font-weight: 600;
+      width: 1089px;
+      height: 72px;
+      margin: -10px 0px 5px 13px ;
+} 
+.text {
+      color: #457B9D;
+      font-family: "Poppins-Medium",'Segoe UI';
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 40px;
+}
+
+.profile img {
+      position: absolute;
+      width: 250px;
+      height: 250px;
+      border-radius: 400px;
+      border: 4px solid #000;
+      background: lightgray -5.027px -8.042px / 100% 100% no-repeat ;
+      top: 120px;
+      left: 1050px;
+}
+.Nav-Link {
+      position: absolute;
+      bottom: 15px;
+}
+.Nav-Link ul {
+      display: flex;
+      list-style: none;
+      background: #DEF2E9;
+      padding: 5.5px 25px;
+      border-radius: 30px;
+      border-width: 1px;
+      border-color: transparent;
+}
+.Nav-Link li {
+      padding: 10.5px 25px;
+      color: #457B9D;
+      font-size: 18px;
+      line-height: 21.5px;
+      font-weight: 500;
+      font-family: 'Poppins','Segoe UI';
+}
