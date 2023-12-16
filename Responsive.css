@@ -140,9 +140,10 @@
       }
       .content-text p {
             margin: auto;
+            padding: 0 30px;
       }
       .content-img {
-            padding: 40px;
+            padding: 40px 40px 20px 40px;
       }
       .content-img img {
             width: 280px;
@@ -227,8 +228,5 @@
       .icon-contact ul li i {
             margin: 5px;
             font-size: 1.3rem;
-      }
-      
-      .tooltip {
       }
 }

@@ -134,7 +134,7 @@ hr {
 .content {
       height: 100vh;
       display: grid;
-
+      min-height: 650px;
 }
 
 .content-head {
@@ -162,6 +162,8 @@ hr {
 
 .content p {
       padding-top: 10px;
+      font-weight: 400;
+
 }
 
 .content-img {
@@ -180,6 +182,7 @@ hr {
       /* padding-bottom: 150px; */
       height: 100vh;
       padding: 20px;
+      height: 700px;
 }
 
 .skill h1 {
@@ -224,6 +227,7 @@ hr {
 .project {
       height: 110vh;
       padding: 20px;
+      min-height: 700px;
 }
 
 .card-project {
@@ -267,6 +271,12 @@ hr {
 
 .project-text h1 {
       font-size: 1.2rem;
+      font-weight: 500;
+}
+
+.project-title p {
+      font-weight: 300;
+
 }
 
 .project-skill {
@@ -276,11 +286,12 @@ hr {
 
 .project-skill p {
       background: var(--gray-dark-200, #374151);
-      padding: 4px 20px 4px 20px;
+      padding: 4px 18px 4px 18px;
       border-radius: 15px;
       border: transparent;
       color: white;
       text-align: center;
+      font-weight: 500;
 }
 
 .project-skill p:hover {
@@ -323,6 +334,7 @@ hr {
 .about-me {
       height: 100vh;
       margin-top: 50px;
+      min-height: 700px;
 }
 
 #box-head {
@@ -429,8 +441,9 @@ hr {
 }
 
 .fa-solid {
-      cursor:default;
+      cursor: pointer;
 }
+
 #Copyedgmail {
       display: none;
       transform: scale(1, -1);
@@ -487,17 +500,6 @@ hr {
       font-size: 2rem;
       color: #d6249f;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 #menuToggle {
       display: none;
