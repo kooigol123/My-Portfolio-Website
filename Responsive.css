@@ -1,10 +1,11 @@
-@media screen and (max-width:1450px) {}
-
 @media screen and (max-width:1213px) {
       .profile-img img {
             width: 550px;
       }
-
+      .project-text h1 {
+            min-width: 350px;
+      }
+      
       .project-title p {
             font-size: 0.9rem;
       }
@@ -41,20 +42,16 @@
 
       .profile-img img {
             height: 100%;
-            width: 470px;
+            width: 490px;
       }
 
       .project-text h1 {
             font-size: 1.2rem;
       }
 
-      .project-title p {
-            font-size: 0.7rem;
-      }
-
       .project-skill p {
             padding: 4px 17px;
-            font-size: 0.8rem;
+            font-size: 0.9rem;
       }
 
 }
@@ -92,16 +89,18 @@
       }
 
       .project-text h1 {
-            font-size: 0.9rem;
+            font-size: 0.95rem;
+            min-width: 250px;
       }
+      
 
       .project-title p {
-            font-size: 0.6rem;
+            font-size: 0.75rem;
       }
 
       .project-skill p {
             padding: 4px 17px;
-            font-size: 0.7rem;
+            font-size: 0.8rem;
       }
 }
 
@@ -198,16 +197,11 @@
             border-radius: 0 0 20px 20px;
             height: 40vh;
             width: 100%;
-            min-height: 250px;
+            min-height: 280px;
       }
 
       .project-title p {
             font-size: 0.7rem;
-      }
-
-      #btn {
-            height: 5vh;
-            margin: 0px;
       }
       .box {
             grid-template-columns: repeat(1, 1fr);
