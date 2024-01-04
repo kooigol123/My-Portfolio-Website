@@ -5,7 +5,9 @@
       font-family: "mitr";
       font-weight: 500;
 }
-
+html {
+      scroll-behavior: smooth;
+}
 body {
       background-color: white;
 }
